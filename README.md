@@ -11,7 +11,7 @@ AnalyzeRectangles -
   
 AnalyzeRectanglesTest
   This is the unit test project for the solution. The main file in this project is-
-  1) AnalyzerTests.cs - 
+  1) AnalyzerTests.cs - This file contains the unit tests for the Analyze rectangle methods
   
   
   Appendix
