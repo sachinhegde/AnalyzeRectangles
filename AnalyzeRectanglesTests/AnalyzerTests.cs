@@ -8,9 +8,9 @@ using System.Collections;
 using System.Diagnostics;
 using AnalyzeRectangles;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace AnalyzeRectangles.Tests
 {
-   
     [TestClass()]
     public class AnalyzerTests
     {
@@ -56,6 +56,8 @@ namespace AnalyzeRectangles.Tests
                                                    new int[] { 13, 8 },
                                                    new int[] { 4, 4, 4, 8, 8, 4, 8, 8 }};
 #endregion
+
+#region TestMethods
 
         [TestMethod()]
         public void CheckIntersectionTrueTest()
@@ -190,6 +192,8 @@ namespace AnalyzeRectangles.Tests
           
             Debug.WriteLine("CheckAdjacentFalseTest End");
         }
+
+#endregion
 
     }
 }

@@ -237,7 +237,7 @@ namespace AnalyzeRectangles
                 }
                 else
                 {
-                    labelResult.Text = "No relations";
+                    labelResult.Text = "No relation between rectangles";
                 }
             }
             else
@@ -247,7 +247,6 @@ namespace AnalyzeRectangles
         }
 
 #endregion
-
 
 #region Member Variables
 
